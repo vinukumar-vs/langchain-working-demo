@@ -1,3 +1,5 @@
-import envVariables
+from envVariables import *
 
-print(envVariables.getEnv("OPENAI_API_KEY"))
+print(getEnv("OPENAI_API_KEY"))
+
+printEnv("VERSION")
